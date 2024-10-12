@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>garuda Hub</title>
+  <!-- Fonts -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>garuda Hub</h1>
+      <!-- Theme Toggle Switch -->
+      <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" />
+        <label for="theme-switch" class="switch"></label>
+        <span id="theme-label">Light</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="subdomain-container">
+      <div class="subdomain">
+        <h2>Public Index</h2>
+        <p>garuda mirror public google drive index.</p>
+        <button onclick="redirectTo('https://index.g4ruda.live')">Public Index</button>
+      </div>
+
+      <div class="subdomain">
+        <h2>Paid Index</h2>
+        <p>Paid Mirror Bot`s Index ( formely garudaAlt Index )</p>
+        <button onclick="redirectTo('https://premiumidx.g4ruda.live/0:/')">Paid Index</button>
+      </div>
+
+      <div class="subdomain">
+        <h2>Web SSH</h2>
+        <p>Meet garuda`s private web based ssh server. ( Scheduled Time )</p>
+        <button onclick="redirectTo('https://ssd.g4ruda.live')">Web SSH Server</button>
+      </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 GarudaHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
